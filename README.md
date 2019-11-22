@@ -1,8 +1,8 @@
 # Git Collabotarive
 
-Use this project to practice your students skills in GIT while developing a porfolio website.
+To run, you must be in the website folder.
 
-Each student works on a different file, for a different part of the website and the teacher can run the entire website. The Html-Template-Engine library will take care of putting all the pieces together.
+To change the directory, you can do "cd website1", then run a server using python with "python3 -m http.server 3000" (without the quotes!).
 
 ## Instructions
 
