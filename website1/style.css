@@ -36,6 +36,12 @@ h1{
 body, html {
   height: 100%;
 
+}
+
+.jumbotron2 {
+    background-image: url(https://nofilmschool.com/sites/default/files/styles/article_wide/public/bbcenterfinal.jpg?itok=PzzNFVfz);
+}
+
 .carousel-inner{
     max-height: 800px;
     min-height: 400px;
