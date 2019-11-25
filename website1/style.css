@@ -5,9 +5,8 @@ h1{
     color: #fcba03;
 }
 
-.jumbotron-heading {
-      font-family: 'Pacifico', cursive;
-    font-family: 'Source Code Pro', monospace;
-    font-family: 'Permanent Marker', cursive;
-    color: #fcba03;
+.jumbotron1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
