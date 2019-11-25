@@ -4,7 +4,7 @@ To run, you must be in the website folder.
 
 To change the directory, you can do "cd website1", then run a server using python with "python3 -m http.server 3000" (without the quotes!).
 ```
-git remote set-url origin repository link
+gitrepository link
 git add .
 git commit -m "first commit"
 git push
