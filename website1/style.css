@@ -5,32 +5,30 @@ h1{
     color: #fcba03;
 }
 
-.masthead{
-    min-height: 500px;
-    background-image: url(https://cdn.pixabay.com/photo/2016/05/31/01/13/landscapes-1426130__340.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.jumbotron1 {
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/31/01/13/landscapes-1426130__340.jpg);
+  background-size: cover;
+  min-height: 500px;
 }
 
     @media only screen and (max-width: 600px) {
-  .masthead{
+  .jumbotron1{
       background-image: url();
   }
 }
 
 .pollos{
-    height: 400px;
-    width: 550px;
+    width: 400px;
+    padding-top: 8%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
 }
-/* .center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- } */
 
- 
- .imgfluid {
+.imgfluid {
   border-radius: 50%;
   width: 200px; height:200px; background-position-x: 10px;
 }
