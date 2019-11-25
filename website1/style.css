@@ -40,6 +40,11 @@ body, html {
 
 .jumbotron2 {
     background-image: url(https://nofilmschool.com/sites/default/files/styles/article_wide/public/bbcenterfinal.jpg?itok=PzzNFVfz);
+ background-size: cover;
+  min-height: 200px;
+}
+.contact    {
+    background-color: #e4f046;
 }
 
 .carousel-inner{
