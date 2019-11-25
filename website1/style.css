@@ -12,6 +12,13 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+    @media only screen and (max-width: 600px) {
+  .masthead{
+      background-image: url();
+  }
+}
+
 .pollos{
     height: 400px;
     width: 550px;
@@ -22,7 +29,11 @@ h1{
     margin-right: auto;
  } */
 
+<<<<<<< HEAD
+ 
+=======
  .imgfluid {
   border-radius: 50%;
   width: 200px; height:200px; background-position-x: 10px;
 }
+>>>>>>> 62229c8103d9da9c19957ddc66942b3b1546fd1b
