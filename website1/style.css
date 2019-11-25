@@ -5,8 +5,19 @@ h1{
     color: #fcba03;
 }
 
-.jumbotron1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.masthead{
+    min-height: 500px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/31/01/13/landscapes-1426130__340.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.pollos{
+    height: 400px;
+    width: 550px;
+}
+/* .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ } */
