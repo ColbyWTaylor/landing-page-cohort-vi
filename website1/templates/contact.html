@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <title>Contact us</title>
   </head>
@@ -13,46 +15,169 @@
     <main role="main">
                 <section class="jumbotron text-center">
                     <div class="container">
-                        <h1 class="jumbotron-heading">Contact us!</h1>
-                        <p class="lead text-muted">Did you enjoy your meal, Mom? You drank it fast enough. Bad news. Andy Griffith turned us down. He didn't like his trailer. First place chick is hot, but has an attitude, doesn't date magicians. Now, when you do this without getting punched in the chest, you'll have more fun.</p>
+                        <h1 class="jumbotron-heading text-warning">Order online now!</h1>
+                        <p class="lead text-muted">Or call 1.800.HERMANOS to find your neighborhood Pollos Hermanos!</p>
                     </div>
-                    <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg">Contact Us</button>
+                    <br/>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg">Order Now!</button>
                         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
+                            <div class="modal-dialog modal-xl">
                                 <div class="modal-content">
                                     <form>
                                         <div class="card mx-auto text-left m-6 p-5">    
                                             <div class="card-header bg-dark text-success">
-                                                <h3>Submission form</h3>
+                                                <h3>Your Order:</h3>
                                             </div>
                                             <div class="card-body"> 
-                                                <div class="form-group row">
-                                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                                                    <div class="col-sm-10">
-                                                        <input type="email" class="form-control" id="inputEmail3" placeholder="heisenberg@breakingbadfanpage.com">
+                                              <div class="form-row">
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="validationServer01">First name</label>
+                                                    <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Walter" required>
+                                                     <div class="valid-feedback">
+                                                         Looks good!
                                                     </div>
                                                 </div>
-                                                <div class="form-group row">
-                                                    <label for="inputPassword3" class="col-sm-2 col-form-label">First Name</label>
-                                                    <div class="col-sm-10">
-                                                        <input type="password" class="form-control" id="inputPassword3" placeholder="Walter">
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="validationServer02">Last name</label>
+                                                    <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="White" required>
+                                                    <div class="valid-feedback">
+                                                        Looks good!
                                                     </div>
                                                 </div>
-                                                <div class="form-group row">
-                                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Last Name</label>
-                                                    <div class="col-sm-10">
-                                                        <input type="password" class="form-control" id="inputPassword3" placeholder="White">
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="validationServerUsername">Email</label>
+                                                    <!-- <div class="input-group"> -->
+                                                    <!-- <div class="input-group-prepend"> -->
+                                                    <!-- </div> --> 
+                                                    <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Email" aria-describedby="inputGroupPrepend3" required>
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid email.
+                                                    </div>
+                                                <!-- </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-md-12 mb-3">
+                                                <label for="validationServer03">Address</label>
+                                                <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="1234 Walter White rd." required>
+                                                <div class="invalid-feedback">
+                                                    Please provide a valid address.
+                                                </div>
+                                                </div>
+                                            <div class="form-row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="validationServer03">Credit Card</label>
+                                                    <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="0000-0000-0000-0000" required>
+                                                    <div class="invalid-feedback">
+                                                        Please provide a valid card.
                                                     </div>
                                                 </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <label for="validationServer04">CVV</label>
+                                                    <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="XXX" required>
+                                                    <div class="invalid-feedback">
+                                                        Please provide a valid cvv.
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <label for="validationServer05">Expiration Date</label>
+                                                    <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="00/0000" required>
+                                                    <div class="invalid-feedback">
+                                                        Please provide a valid expiration date.
+                                                    </div>
+                                                </div>
+                                            <div class="form-row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="validationServer03">City</label>
+                                                    <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+                                                    <div class="invalid-feedback">
+                                                        Please provide a valid city.
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <label for="validationServer04">State</label>
+                                                    <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+                                                    <div class="invalid-feedback">
+                                                        Please provide a valid state.
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <label for="validationServer05">Zip</label>
+                                                    <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+                                                    <div class="invalid-feedback">
+                                                        Please provide a valid zip.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                <fieldset class="form-group">
+                                                    <div class="row">
+                                                        <legend class="col-form-label col-sm-2 pt-0">Build your meal:</legend>
+                                                        <div class="col-sm-10">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                <label class="form-check-label" for="gridCheck1">
+                                                                     2-piece fried chicken (white meat or dark meat) comes with 1 side
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                <label class="form-check-label" for="gridCheck1">
+                                                                    4-piece fried chicken (white meat or dark meat) comes with 2 sides
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                <label class="form-check-label" for="gridCheck1">
+                                                                     Family Meal includes 8-piece fried chicken (white meat or dark meat) comes with 3 sides and 4 biscuts
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                <label class="form-check-label" for="gridCheck1">
+                                                                    Southern fried style chicken sandwich comes with 1 side
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                <label class="form-check-label" for="gridCheck1">
+                                                                    Southern pecan pie a la mode
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                                                <label class="form-check-label" for="gridCheck1">
+                                                                    Southern apple pie a la mode
+                                                                </label>
+                                                            </div>
+                                                    </div>        
+                                                        <div class="row">
+                                                        <legend class="col-form-label col-sm-2 pt-0 float-right"></legend>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                                <label class="form-check-label" for="gridRadios1">
+                                                                    Delivery
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                                <label class="form-check-label" for="gridRadios1">
+                                                                    Pick-up
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                                </fieldset>
                                                 <div class="form-group">
-                                                    <label for="exampleFormControlTextarea1">Message</label>
+                                                    <label for="exampleFormControlTextarea1">Special instructions:</label>
                                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message here..."></textarea>
                                                 </div>
                                             </div>
                                             <div class="card-footer bg-dark text-right">  
                                                 <div class="form-group row">
                                                     <div class="col-sm-10">
-                                                        <button type="submit" class="btn text-right mx-auto btn-success">Submit</button>
+                                                        <button type="submit" class="btn text-right mx-auto btn-success">Place my order</button>
                                                     </div>
                                                 </div>
                                             </div>    
@@ -62,6 +187,13 @@
                                 </div>
                             </div>
                         </div>
+                        <br/>
+                        <p class="lead text-muted m-2 p-3">Make sure to follow us:</p>
+                        <div> 
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-share-alt"></i>
                 </section>     
     
     <!-- Optional JavaScript -->
