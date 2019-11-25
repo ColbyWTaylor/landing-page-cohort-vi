@@ -9,6 +9,12 @@ h1{
   background-image: url(https://cdn.pixabay.com/photo/2016/05/31/01/13/landscapes-1426130__340.jpg);
   background-size: cover;
   min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
     @media only screen and (max-width: 600px) {
