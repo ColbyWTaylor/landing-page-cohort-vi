@@ -32,6 +32,10 @@ h1{
   border-radius: 50%;
   width: 200px; height:200px; background-position-x: 10px;
 }
+
+body, html {
+  height: 100%;
+
 .carousel-inner{
     max-height: 800px;
     min-height: 400px;
